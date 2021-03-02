@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  <title>Building the Prototype</title>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Cute Cat</h1>
+    <!-- photo credit: wikipedia.org, image taken by Ritik -->
+    <img src="cat.jpg" alt="cutecat">
+    
+    <div id="card" class="animal-info">
+      <p id="interesting-fact"> A layer of mucus on the clownfish's skin makes it good<br>  immune to the fish-eating anemone's lethal sting. very </p>
+      <ul id="facts">
+        <li>
+          <span>Scientific Name</span>: Amphiprioninae
+        </li>
+        <li>
+          <span>Average Length</span>: 11 centimeters
+        </li>
+        <li>
+          <span>Average Lifespan</span>: 7 years
+        </li>
+        <li>
+          <span>Habitat</span>: Tropical coral reefs
+        </li>
+      </ul>
+      <p id="summary"> Bright orange with three distinctive white bars, breath<br>  clown anemonefish are among the most trying exam<br>  recognizable of all reef-dwellers.
+        They reach them max<br>  about 11 centimeters in length, and are named it nemo<br> for the multicolored sea anemone in which they love it<br>  make their
+        homes.
+      </p>
+    </div>
+  </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Les cupcakes</title>
+    </head>
+
+    <body>
+        <h1>Vive les cupcakes</h1>
+        
+        <p>J'ai découvert les cupcakes lors d'un voyage à 
+            <a href="https://fr.wikipedia.org/wiki/New_York">
+                New York
+            </a>
+            ... et depuis c'est une véritable passion. Sur mon site, vous saurez 
+            <strong>tout</strong> sur les cupcakes !</p>
+        
+        <p>Un cupcake ? C'est ça :</p>
+        
+        <figure>
+        <img src="cupcake.jpg" alt="Cupcake" />
+        <figcaption>Un cupcake</figcaption>
+        </figure>
+        
+        <p>Délicieux non ? Sur mon site, je vous présenterai :</p>
+        
+        <ul>
+        <li>Les différentes variétés de cupcakes</li>
+        <li>Leur histoire</li>
+        <li>Leurs recettes</li>
+        </ul>
+        
+    </body>
+</html>   
+
+<style>
+/* add your CSS here */
+h1 {margin:10px;}
+img {width:380px;
+margin:7px;
+
+}
+body {
+ border: none;
+  padding: 1em;
+
+ width:100%;
+ width:400px;
+  height:50%;}
+
+  #interesting-fact  {
+  font-style:italic;}
+
+
+span {
+font-weight:bold;
+
+font-style:normal;}
+ul {
+font-style:italic;
+list-style: none;}
+#card {
+
+width:380px;
+margin:7px;
+pading  
+}
+/*.dar{
+
+width:360px;
+margin:9px; }*/
+      #container{
+                         border:2px solid red;
+                          padding:2px;}
+
+                #facts{
+                   font-weight:bold;
+        
+                  list-style-type:none;}
+       .animal-info{
+                 border:2px  solid red;
+                padding :2px;
+
+</style>
